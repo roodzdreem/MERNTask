@@ -1,0 +1,5 @@
+export const Url = 'http://localhost:4000'
+export const UrlPost = '/createuser'
+export const UrlUpdate = '/updateuser/'
+export const UrlGet = '/api/users/getusers'
+export const UrlDelete = '/deleteoneuser/'

@@ -1,0 +1,12 @@
+.msgBtn {
+    width: 100px;
+    height: 20px;
+    padding: 5px, 15px;
+    display: table;
+    color: green;
+    font-size: 14px;
+    background: transparent;
+    border: 1px solid green;
+    cursor: pointer;
+    justify-content: space-between;
+}
