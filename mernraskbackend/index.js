@@ -5,7 +5,7 @@ import * as UserController from './UserController.js'
 
 
 mongoose
-.connect('mongodb+srv://dima:wwwwww@messagescluster0.0xi8kqp.mongodb.net/Users?retryWrites=true&w=majority')
+.connect()// Здесь должна быть ссылка на базу данных!!!
 .then(() => console.log('Ura'))
 .catch((err) => console.log("DB error", err));
 var database = mongoose.connection;
